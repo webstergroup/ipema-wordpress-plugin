@@ -1,0 +1,279 @@
+  Autoloads for ipema - Total bytes: 312457
++------------------------------------------------------------------------------------------------------------------------------------------------+
+| Option Name                                                      | Size (bytes) |  %Total | Visualization                                      |
+|------------------------------------------------------------------+--------------+---------+----------------------------------------------------|
+| rewrite_rules                                                    |        45796 | 14.657% | ███████▎                                           |
+| skilled_options                                                  |        40217 | 12.871% | ██████▍                                            |
+| wpcf-fields                                                      |        37151 | 11.890% | █████▉                                             |
+| wpseo_titles                                                     |        21297 |  6.816% | ███▍                                               |
+| wpcf-custom-types                                                |        15838 |  5.069% | ██▌                                                |
+| _transient_toolset_types_cache_sg_postmeta                       |        13763 |  4.405% | ██▏                                                |
+| wpcf-custom-taxonomies                                           |        12789 |  4.093% | ██                                                 |
+| _transient_wpv_transient_meta_filter_groups                      |        10066 |  3.222% | █▌                                                 |
+| otgs-installer-log                                               |         9747 |  3.119% | █▌                                                 |
+| wp_user_roles                                                    |         7557 |  2.419% | █▏                                                 |
+| mobmenu_options                                                  |         5525 |  1.768% | ▉                                                  |
+| otgs_active_components                                           |         5320 |  1.703% | ▊                                                  |
+| wpseo                                                            |         5012 |  1.604% | ▊                                                  |
+| cron                                                             |         4994 |  1.598% | ▊                                                  |
+| wpcf-termmeta                                                    |         4900 |  1.568% | ▊                                                  |
+| wtbp_ce_settings                                                 |         4232 |  1.354% | ▋                                                  |
+| GTranslate                                                       |         4018 |  1.286% | ▋                                                  |
+| toolset_dynamic_sources_config                                   |         3794 |  1.214% | ▌                                                  |
+| ub_login_screen                                                  |         3750 |  1.200% | ▌                                                  |
+| _transient_wpv_transient_usermeta_keys_visible512                |         3659 |  1.171% | ▌                                                  |
+| wpmm_settings                                                    |         3586 |  1.148% | ▌                                                  |
+| _transient_wpv_transient_meta_keys_visible512                    |         3332 |  1.066% | ▌                                                  |
+| fs_accounts                                                      |         2823 |  0.903% | ▍                                                  |
+| wpe_cache_config                                                 |         2779 |  0.889% | ▍                                                  |
+| _transient_toolset_types_cache_sg_termmeta                       |         2736 |  0.876% | ▍                                                  |
+| beehive_settings                                                 |         2364 |  0.757% | ▍                                                  |
+| dpArticleShare_options                                           |         2349 |  0.752% | ▍                                                  |
+| relevanssi_stopwords                                             |         1972 |  0.631% | ▎                                                  |
+| wpv_options                                                      |         1965 |  0.629% | ▎                                                  |
+| active_plugins                                                   |         1855 |  0.594% | ▎                                                  |
+| wpcf-usermeta                                                    |         1790 |  0.573% | ▎                                                  |
+| _transient_toolset_types_cache_sg_usermeta                       |         1432 |  0.458% | ▏                                                  |
+| presspermit_buffer_metagroup_id_a1b3c5d664d33d272c244aeed5327677 |         1195 |  0.382% | ▏                                                  |
+| wce_email_settings                                               |         1025 |  0.328% | ▏                                                  |
+| widget_text                                                      |         1003 |  0.321% | ▏                                                  |
+| ub_stats                                                         |          964 |  0.309% | ▏                                                  |
+| wpseo_taxonomy_meta                                              |          902 |  0.289% | ▏                                                  |
+| redirection_options                                              |          820 |  0.262% | ▏                                                  |
+| scifi-task-manager_statuses                                      |          679 |  0.217% |                                                    |
+| wpseo_social                                                     |          602 |  0.193% |                                                    |
+| brainstrom_products                                              |          562 |  0.180% |                                                    |
+| sidebars_widgets                                                 |          538 |  0.172% |                                                    |
+| woothemes-sensei-settings                                        |          527 |  0.169% |                                                    |
+| widget_easy_sidebar_menu_widget                                  |          518 |  0.166% |                                                    |
+| _transient_wp_styles_for_blocks                                  |          516 |  0.165% |                                                    |
+| gravityformsaddon_gravityformslogging_settings                   |          487 |  0.156% |                                                    |
+| ub_admin_bar                                                     |          475 |  0.152% |                                                    |
+| fs_active_plugins                                                |          468 |  0.150% |                                                    |
+| far_plugin_settings                                              |          467 |  0.149% |                                                    |
+| ultimate_modules                                                 |          382 |  0.122% |                                                    |
++------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+
+
+    Slow Queries Summary
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  User | Count | Avg Seconds | Distillate         | URI                             | File Path:Line                                                                |
+|-------+-------+-------------+--------------------+---------------------------------+-------------------------------------------------------------------------------|
+| ipema |     1 |       10.40 | SELECT wp_postmeta | ipema.org/product-sitemap37.xml | /nas/content/live/ipema/wp-content/plugins/wordpress-seo/inc/sitemaps/class-p |
+|       |       |             |                    |                                 | ost-type-sitemap-provider.php:569                                             |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+
+
+# Time range: 2025-03-24T08:53:24 to 2025-03-24T17:45:29
+# Attribute          total     min     max     avg     95%  stddev  median
+# ============     ======= ======= ======= ======= ======= ======= =======
+# Exec time           184s      6s     56s     10s     10s     11s      7s
+# Lock time           21us       0     3us     1us     1us       0     1us
+# Rows sent          2.97M       1   2.15M 160.10k 830.38k 516.03k    1.96
+# Rows examine      13.93M       0   4.31M 750.88k 830.38k 867.96k 535.27k
+# Rows affecte           0       0       0       0       0       0       0
+# Bytes sent        92.54M      71  82.86M   4.87M   9.30M  17.77M   88.31
+# Query size        10.75k      34     953  579.42  652.75  208.12  652.75
+
+# Profile
+# Rank Query ID                            Response time Calls R/Call  V/M
+# ==== =================================== ============= ===== ======= ===
+#    1 0x5BE9309BC1B56F8736DA5E1651578348  89.5868 48.7%    13  6.8913  0.03 SELECT wp_posts wp_yoast_indexable
+#    2 0x7D1E2C13290F9D3ECE6792CBCCD91FD5  55.8712 30.4%     1 55.8712  0.00 SELECT wp_postmeta
+#    3 0x4EB39B10CCA7DD7F95DD959CBA1CFADA  19.4380 10.6%     3  6.4793  0.02 SELECT wp_posts wp_postmeta
+#    4 0x0E8D37E08960B68272998BF2321FE8A7  10.4026  5.7%     1 10.4026  0.00 SELECT wp_postmeta
+#    5 0xE3C753C2F267B2D767A347A2812914DF   8.7899  4.8%     1  8.7899  0.00 SELECT wp_postmeta
+
+# Query 1: 0.00 QPS, 0.00x concurrency, ID 0x5BE9309BC1B56F8736DA5E1651578348 at byte 16421
+# Scores: V/M = 0.03
+# Time range: 2025-03-24T08:53:24 to 2025-03-24T16:23:32
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count         68      13
+# Exec time     48     90s      6s      8s      7s      7s   485ms      7s
+# Lock time     71    15us     1us     2us     1us     1us       0     1us
+# Rows sent      0      26       2       2       2       2       0       2
+# Rows examine  50   7.08M 557.67k 558.11k 557.91k 535.27k       0 535.27k
+# Rows affecte   0       0       0       0       0       0       0       0
+# Bytes sent     0   1.17k      92      92      92      92       0      92
+# Query size    78   8.40k     662     662     662     662       0     662
+# String:
+# Databases    wp_ipema
+# Hosts        127.0.0.1
+# Last errno   0
+# Users        ipema
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s  ################################################################
+#  10s+
+# Tables
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_posts'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_posts`\G
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_yoast_indexable'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_yoast_indexable`\G
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT P.ID
+			FROM wp_posts AS P
+			WHERE P.post_type IN ('post', 'page', 'teacher', 'timetable_weekdays', 'events', 'testimonial', 'company', 'product', 'rv', 'certified-product', 'manufacturer', 'certificate', 'webinar', 'consultant-supplier', 'cert-company', 'product-change')
+			AND P.post_status NOT IN ('auto-draft')
+			AND P.ID not in (
+				SELECT I.object_id from wp_yoast_indexable as I
+				WHERE I.object_type = 'post'
+				AND I.version = 2 )
+			LIMIT 2 /* From [ipema.org/wp-cron.php?doing_wp_cron=1742826197.5623910427093505859375] in [/nas/content/live/ipema/wp-content/plugins/wordpress-seo/src/actions/indexing/abstract-indexing-action.php:60] */\G
+
+# Query 2: 0 QPS, 0x concurrency, ID 0x7D1E2C13290F9D3ECE6792CBCCD91FD5 at byte 20177
+# Scores: V/M = 0.00
+# Time range: all events occurred at 2025-03-24T17:45:29
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count          5       1
+# Exec time     30     56s     56s     56s     56s     56s       0     56s
+# Lock time      0       0       0       0       0       0       0       0
+# Rows sent      0       1       1       1       1       1       0       1
+# Rows examine   0       0       0       0       0       0       0       0
+# Rows affecte   0       0       0       0       0       0       0       0
+# Bytes sent     0      71      71      71      71      71       0      71
+# Query size     0      34      34      34      34      34       0      34
+# String:
+# Databases    wp_ipema
+# Hosts        10.52.102.40
+# Last errno   0
+# Users        ipema
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s
+#  10s+  ################################################################
+# Tables
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_postmeta'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_postmeta`\G
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT COUNT(*) FROM `wp_postmeta`\G
+
+# Query 3: 0.00 QPS, 0.00x concurrency, ID 0x4EB39B10CCA7DD7F95DD959CBA1CFADA at byte 5776
+# Scores: V/M = 0.02
+# Time range: 2025-03-24T11:04:02 to 2025-03-24T14:20:01
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count         15       3
+# Exec time     10     19s      6s      7s      6s      7s   397ms      6s
+# Lock time     23     5us     1us     3us     1us     2us       0     1us
+# Rows sent      0      90      30      30      30      30       0      30
+# Rows examine  12   1.73M 588.89k 588.89k 588.89k 588.89k       0 588.89k
+# Rows affecte   0       0       0       0       0       0       0       0
+# Bytes sent     0   1.15k     377     402  393.67  400.73   12.50  400.73
+# Query size    12   1.33k     440     484  454.67  463.90   20.33  420.77
+# String:
+# Databases    wp_ipema
+# Hosts        127.0.0.1
+# Last errno   0
+# Users        ipema
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s  ################################################################
+#  10s+
+# Tables
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_posts'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_posts`\G
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_postmeta'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_postmeta`\G
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND (
+  wp_postmeta.meta_key = 'model'
+) AND wp_posts.post_type = 'certified-product' AND ((wp_posts.post_status = 'publish'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value ASC
+					 LIMIT 0, 30 /* From [ipema.org/certified-product/] in [/nas/content/live/ipema/index.php:17] */\G
+
+# Query 4: 0 QPS, 0x concurrency, ID 0x0E8D37E08960B68272998BF2321FE8A7 at byte 12580
+# Scores: V/M = 0.00
+# Time range: all events occurred at 2025-03-24T13:03:37
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count          5       1
+# Exec time      5     10s     10s     10s     10s     10s       0     10s
+# Lock time      4     1us     1us     1us     1us     1us       0     1us
+# Rows sent     72   2.15M   2.15M   2.15M   2.15M   2.15M       0   2.15M
+# Rows examine  30   4.31M   4.31M   4.31M   4.31M   4.31M       0   4.31M
+# Rows affecte   0       0       0       0       0       0       0       0
+# Bytes sent    89  82.86M  82.86M  82.86M  82.86M  82.86M       0  82.86M
+# Query size     8     953     953     953     953     953       0     953
+# String:
+# Databases    wp_ipema
+# Hosts        127.0.0.1
+# Last errno   0
+# Users        ipema
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s
+#  10s+  ################################################################
+# Tables
+#    SHOW TABLE STATUS FROM `wp_ipema` LIKE 'wp_postmeta'\G
+#    SHOW CREATE TABLE `wp_ipema`.`wp_postmeta`\G
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (739354,739356,739357,739358,739359,739360,739361,739362,739363,739368,739369,739370,739371,739372,739373,739374,739375,739379,739380,739381,739382,739383,739384,739385,739386,739387,739392,739393,739394,44683,739405,739402,739406,739440,739449,739463,739503,739504,739515,739516,739521,739537,739538,739539,739552,739553,739559,739572,739573,739586,739587,739593,739606,739607,739608,739636,739637,739638,739651,739652,739658,739671,739672,739673,739687,739688,739694,739707,739708,739709,739719,739720,739724,739726,739740,739741,739742,739751,739761,739766,739770,739774,739775,739779,739790,739794,739795,739798,739805,739806,739807,739835,739836,739837,739848,739849,739863,739870,739871,739874) ORDER BY meta_id ASC /* From [ipema.org/product-sitemap37.xml] in [/nas/content/live/ipema/wp-content/plugins/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php:569] */\G
+
+# Query 5: 0 QPS, 0x concurrency, ID 0xE3C753C2F267B2D767A347A2812914DF at byte 11627
+# Scores: V/M = 0.00
+# Time range: all events occurred at 2025-03-24T12:51:10
+# Attribute    pct   total     min     max     avg     95%  stddev  median
+# ============ === ======= ======= ======= ======= ======= ======= =======
+# Count          5       1
+# Exec time      4      9s      9s      9s      9s      9s       0      9s
+# Lock time      0       0       0       0       0       0       0       0
+# Rows sent     27 836.11k 836.11k 836.11k 836.11k 836.11k       0 836.11k
+# Rows examine   5 836.11k 836.11k 836.11k 836.11k 836.11k       0 836.11k
+# Rows affecte   0       0       0       0       0       0       0       0
+# Bytes sent    10   9.67M   9.67M   9.67M   9.67M   9.67M       0   9.67M
+# Query size     0      52      52      52      52      52       0      52
+# String:
+# Databases    wp_cgcnew
+# Hosts        10.52.102.40
+# Last errno   0
+# Users        _wpe_root
+# Query_time distribution
+#   1us
+#  10us
+# 100us
+#   1ms
+#  10ms
+# 100ms
+#    1s  ################################################################
+#  10s+
+# Tables
+#    SHOW TABLE STATUS FROM `wp_cgcnew` LIKE 'wp_postmeta'\G
+#    SHOW CREATE TABLE `wp_cgcnew`.`wp_postmeta`\G
+SELECT /*!40001 SQL_NO_CACHE */ * FROM `wp_postmeta`\G
+# Converted for EXPLAIN
+# EXPLAIN /*!50100 PARTITIONS*/
+SELECT /*!40001 SQL_NO_CACHE */ * FROM `wp_postmeta`\G
